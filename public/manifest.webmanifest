@@ -1,0 +1,16 @@
+{
+	"name": "Fredrik Berglund",
+	"short_name": "Blynt",
+	"description": "The online home of Fredrik Berglund",
+	"icons": [
+		{
+			"src": "/favicon.png",
+			"sizes": "450x450",
+			"type": "image/png"
+		}
+	],
+	"start_url": "/",
+	"background_color": "#ffffff",
+	"theme_color": "#02a388",
+	"display": "standalone"
+}
