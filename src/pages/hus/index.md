@@ -37,6 +37,8 @@ Diverse dokumentation om vårt hus. Under uppbyggnad.
     - **Utegivare** - ESMT
   - **FTX-aggregat**:
     - Systemair SAVE VTR 500 ([PDF](/assets/hus/save-vtr-500-anvandarmanual.pdf) + [PDF](/assets/hus/save-vtr-500-service-tillbehor.pdf))
+- **Trådlös strömbrytare** - IKEA Trådfri
+  - Batterityp: CR2032 3 volt
 
 ## Hall
 
