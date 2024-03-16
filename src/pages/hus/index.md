@@ -89,3 +89,14 @@ Diverse dokumentation om vårt hus. Under uppbyggnad.
 ## Generellt
 
 - **Trägolv** - BerryAlloc Original Canyon Light Oak 1-stav
+
+## Guider
+
+### Byta batteri i strömbrytaren i grovköket
+
+1. Sätt i ett nytt batteri av typen CR2032, 3 volt.
+2. Drivern till ljuslisten ligger på golvet i det vänstra skåpet under
+   diskbänken.
+3. Placera strömbrytaren max 5 cm från drivern och håll in den lilla knappen
+   på baksidan av strömbrytaren i några sekunder.
+4. Strömbrytaren är nu ihopkopplad med drivern och kan användas.
