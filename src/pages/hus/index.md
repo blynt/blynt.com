@@ -86,6 +86,11 @@ Diverse dokumentation om vårt hus. Under uppbyggnad.
 - **Högskåp** - Hafa Go Vit 40x160 cm ([PDF](/assets/hus/hafa-go-40x160.pdf))
 - **Klinker vägg** - Tenfors Aura Perla Blank Rak 60x60 cm
 
+## Vardagsrum
+
+- **Matsalslampa** - Lamptyp
+  - E14, 2010 K (warm white), 350 lm, dimbar (Star Trading Clear)
+
 ## Generellt
 
 - **Trägolv** - BerryAlloc Original Canyon Light Oak 1-stav
