@@ -91,6 +91,10 @@ Diverse dokumentation om vårt hus. Under uppbyggnad.
 - **Matsalslampa** - Lamptyp
   - E14, 2010 K (warm white), 350 lm, dimbar (Star Trading Clear)
 
+## Förråd, övervåning
+
+- **Plafond** - Lamptyp: E14, 2 x max 40W
+
 ## Generellt
 
 - **Trägolv** - BerryAlloc Original Canyon Light Oak 1-stav
