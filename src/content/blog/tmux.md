@@ -26,7 +26,7 @@ So when I'm out and about and using my laptop, I can just `ssh` back home and
 type `tmux`, hit `Ctrl-b w` to scroll through all my `tmux` windows and dig up
 that old `vim` session I was working in. Magic!
 
-![](/public/blog/tmux/tmux-01.webp)
+![](/blog/tmux/tmux-01.webp)
 
 *Three panels in a tmux window.*
 
@@ -57,7 +57,7 @@ and then issue a command. Here are the ones I use the most:
 - `Ctrl-b c` - create a new full-screen window
 - `Ctrl-b <number>` - move to window `<number>`
 
-![](/public/blog/tmux/tmux-02.apng)
+![](/blog/tmux/tmux-02.apng)
 
 *Window management in `tmux`.*
 
@@ -71,7 +71,7 @@ and then issue a command. Here are the ones I use the most:
 - `Ctrl-b Ctrl-arrow keys` - resize the pane
 - `Ctrl-b !` - move the current pane into a new window
 
-![](/public/blog/tmux/tmux-03.apng)
+![](/blog/tmux/tmux-03.apng)
 
 *Managing panes in `tmux`.*
 
@@ -83,7 +83,7 @@ and then issue a command. Here are the ones I use the most:
   - Use `/` to search for a window
 - `Ctrl-b d` - detach from the current session (and leave it running)
 
-![](/public/blog/tmux/tmux-04.apng)
+![](/blog/tmux/tmux-04.apng)
 
 *Listing sessions + listing windows and finally jumping to `ncspot`.*
 
@@ -95,7 +95,7 @@ and then issue a command. Here are the ones I use the most:
   - Use `Enter` to copy the selected text
 - `Ctrl-b ]` - paste the copied text
 
-![](/public/blog/tmux/tmux-05.apng)
+![](/blog/tmux/tmux-05.apng)
 
 *Copying text from one pane to a `vim` session running in another.*
 
