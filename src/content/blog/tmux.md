@@ -1,5 +1,5 @@
 ---
-title: "tmux"
+title: "tmux - boosting your terminal experience"
 publishDate: "9 november 2024"
 description: "tmux - the terminal multiplexer"
 ---
