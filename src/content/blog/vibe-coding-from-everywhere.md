@@ -4,13 +4,13 @@ description: "How I use tried and trusted Linux/Unix tools to do software develo
 publishDate: "26 March 2026"
 ---
 
-In my spare time I develop (or, rather, "vibe code" with my AI friend Claude) a
-set of web services that I collectively call [RequestBite][rb]. It consists of
-an API client called [Slingshot][rbs], a [public REST API catalog][rbapi], a
-[mock API service][rbm], an HTTP request inspector aptly called
-[Inspector][rbi], and more stuff on the way.
+In my spare time I develop (or, rather, "vibe code" with my AI friend) a set of
+web services that I collectively call [RequestBite][rb]. It consists of an API
+client called [Slingshot][rbs], a [public REST API catalog][rbapi], a [mock API
+service][rbm], an HTTP request inspector aptly called [Inspector][rbi], and more
+stuff on the way.
 
-![](/blog/vibe-coding/requestbite.webp)
+![RequestBite](/blog/vibe-coding/requestbite.webp)
 
 [rb]:    https://requestbite.com
 [rbs]:   https://requestbite.com/slingshot
@@ -27,8 +27,8 @@ kids to football practice. This means I’m most often on some laptop when I get
 the urge to do a quick update and need the immediate and full access to my dev
 environment running all these services.
 
-In this article I describe how I currently manage this using my home workstation as
-my development environment and how I use [Tailscale][ts], ssh, [tmux][tmux],
+In this article I describe how I currently manage this using my home workstation
+as my development environment and how I use [Tailscale][ts], ssh, [tmux][tmux],
 [LazyVim][vim], [Mistral Vibe][vibe] (my recent Claude successor) and
 [FoxyProxy][fp] to easily update any repo at a moment's notice from just about
 anywhere.
@@ -109,10 +109,10 @@ ssh -L 5173:localhost:5173 -J jump.example.com home
 
 ... but since I have 10+ services running at all times, it becomes very
 cumbersome to forward each port like this. To make it possible to forward any
-request to `localhost`, regardless of port, I instead set up a SOCKS proxy when
+request to `localhost`, regardless of port, I instead set up a SOCKS5 proxy when
 SSH:ing home and use FoxyProxy in Firefox make make use of it.
 
-To set up a SOCKS proxy when connecting to my home workstation, I run this:
+To set up a SOCKS5 proxy when connecting to my home workstation, I run this:
 
 ```bash
 ssh -D 1080 -J jump.example.com home
@@ -154,7 +154,7 @@ Let's make sure to fill out the following details:
 
 Finally I click _Save_.
 
-![](/blog/vibe-coding/foxyproxy.webp)
+![FoxyProxy](/blog/vibe-coding/foxyproxy.webp)
 
 Click the FoxyProxy button again and select _Proxy by Patterns_.
 
@@ -170,8 +170,8 @@ for easy access to any service.
 
 In my [tmux][tmux] session, I have one window for each service that I've given a
 relevant label. In each window I have two panes, one with [LazyVim][vim] so that
-I can edit files and push commits (with [vim-fugitive][vimf] and one where I
-have Vibe running in the same repo. This way it's very easy to give Vibe 
+I can edit files and push commits (with [vim-fugitive][vimf]) and one where I
+have Vibe running in the same repo. This way it's very easy to give Vibe
 instructions and immediately see the updates that results in.
 
 [vimf]: https://github.com/tpope/vim-fugitive
@@ -190,7 +190,7 @@ The above guide only works if you have, like me, configured your shell to start
 in the currently active directory. Otherwise you will probably end up in your
 home directory when splitting the window in step \#3 above.
 
-![](/blog/vibe-coding/tmux-session.webp)
+![Tmux](/blog/vibe-coding/tmux-session.webp)
 
 With tmux set up like this, connecting to my home workstation and jumping into
 coding (and testing) mode is essentially two commands in a terminal:
